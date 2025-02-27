@@ -1,4 +1,4 @@
-console console.log(hola mundo );
+conole console.log(hola mundo );
 
 console.log(prueba)
 
@@ -9,3 +9,8 @@ function calcularCuadrado(numero) {
 
 console.log(calcularCuadrado(5)); // Ejemplo de uso
 // ...existing code...
+
+// calcular raiz cuadrada
+function calcularRaizCuadrada(numero) {
+    return Math.sqrt(numero);
+}
